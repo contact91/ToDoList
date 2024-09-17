@@ -30,9 +30,7 @@ body {
 form {
   text-align: center;
 }
-form > div {
-  margin: auto;
-}
+
 div {
   position: relative;
   display: flex;
@@ -41,7 +39,7 @@ div {
   width: 300px;
   height: 30px;
   background-color: white;
-  margin: 20px 0;
+  margin: 20px auto;
   border-radius: 10px;
   box-shadow: 5px 3px 3px black;
 }
