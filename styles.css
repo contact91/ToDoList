@@ -14,7 +14,6 @@ button {
   color: white;
   border-radius: 10px;
   margin-left: 20px;
-  margin-bottom: 20px;
   box-shadow: 5px 3px 3px black;
 }
 button:hover {
@@ -30,7 +29,6 @@ body {
 form {
   text-align: center;
 }
-
 div {
   position: relative;
   display: flex;
@@ -39,7 +37,7 @@ div {
   width: 300px;
   height: 30px;
   background-color: white;
-  margin: 20px auto;
+  margin: 20px 0;
   border-radius: 10px;
   box-shadow: 5px 3px 3px black;
 }
@@ -47,9 +45,14 @@ div:hover {
   transform: scale(1.1);
   transition: 500ms;
 }
-i {
+.fa-trash {
   position: absolute;
   right: 10px;
+  padding: 2px;
+}
+.fa-check {
+  position: absolute;
+  right: 30px;
   padding: 2px;
 }
 i:hover {
